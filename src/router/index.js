@@ -46,7 +46,7 @@ function MyTabs() {
         options={{headerShown: false,
 					tabBarLabel: 'Pembatalan',
 					tabBarIcon: ({ color, size }) => (
-						<MaterialCommunityIcons name="home" color={color} size={size} />
+						<MaterialCommunityIcons name="cancel" color={color} size={size} />
 					),
 				}}
       />
@@ -56,7 +56,7 @@ function MyTabs() {
         options={{headerShown: false,
 					tabBarLabel: 'Lainnya',
 					tabBarIcon: ({ color, size }) => (
-						<MaterialCommunityIcons name="home" color={color} size={size} />
+						<MaterialCommunityIcons name="more" color={color} size={size} />
 					),
 				}}
       />
